@@ -1,0 +1,32 @@
+/* universal selector  */
+/* *{
+    color: blue;
+} */
+header{
+    background-color: aqua;
+}
+section.my-articles{
+    background-color: #f2e9e9;
+}
+header p{
+    color: orange;
+}
+/* to chnage the color of p only on header tag  */
+li a{
+    color: rgb(255, 0, 51);
+}
+/* section.my-articles h2{
+    color: green;
+} */
+section.my-articles>h2{
+    color: green;
+}
+section.my-articles h2+p{
+    color: orangered;
+}
+/* h2+p{
+    color: orangered;
+} */
+ul+p{
+    color: green;
+}

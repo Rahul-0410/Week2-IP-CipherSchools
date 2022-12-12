@@ -1,0 +1,26 @@
+/*  inline style attribute > id selectors > class selectors > element selectors  */
+/* h1{
+    color: burlywood;
+} */
+
+/* h1.heading{
+    color: magenta;
+} */
+
+/* .h1class{
+    color: red;
+} */
+
+/* #h1id{
+    color: blue;
+} */
+
+
+div#container ul.my-songs li{
+    color: brown;
+    background-color: yellow;
+}
+div#container ul.my-songs li.favourite{
+    color: yellow;
+    background-color: brown;
+}
